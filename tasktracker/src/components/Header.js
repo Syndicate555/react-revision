@@ -1,12 +1,12 @@
-import React from 'react'
 
 const Header = () => {
     return (
-        <div>
+        <header className = "header">
             <h1>
                 Task Tracker
             </h1>
-        </div>
+            <button className="btn">Add</button>
+        </header>
     )
 }
 
