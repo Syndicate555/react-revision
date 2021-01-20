@@ -40,8 +40,8 @@ function App() {
   }
 
   // Toggle Reminder
-  const toggleReminder = () => {
-    
+  const toggleReminder = (id) => {
+
   }
   return (
     <div className = "container" >
