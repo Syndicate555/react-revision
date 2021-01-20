@@ -36,12 +36,16 @@ function App() {
 
   // Deleting a task
   const deleteTask =(id) =>{
-    console.log("deleted", id)
+    setTasks(tasks.filter((task) => task.id !== id ))
   }
   return (
     <div className = "container" >
       <Header title = "Task Master  V2.0"/>
+      {tasks.length > 0 ? (
       <Tasks tasks = {tasks} onDelete = {deleteTask}/>
+      ): (
+        'No Task is assigned'
+      )}
 
     </div>
   );
