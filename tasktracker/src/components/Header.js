@@ -14,7 +14,7 @@ const Header = (props) => {
     )
 }
 Header.defultProps = {
-    title: 'Task Tracker',
+    title: 'Task Master V2.0',
 }
 
 Header.propTypes = {

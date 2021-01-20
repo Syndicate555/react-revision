@@ -40,7 +40,7 @@ function App() {
   }
   return (
     <div className = "container" >
-      <Header title = "Task Tracker"/>
+      <Header title = "Task Master  V2.0"/>
       <Tasks tasks = {tasks} onDelete = {deleteTask}/>
 
     </div>
