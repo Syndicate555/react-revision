@@ -41,7 +41,13 @@ function App() {
 
   // Toggle Reminder
   const toggleReminder = (id) => {
-    tasks.map((task) => task.id === id ? {...task, reminder:!task.reminder} : task) // sets the reminder to its opposite value when the task is double clicked
+    // sets the reminder to its opposite value when the task is double clicked
+    setTasks(
+      tasks.map((task) => 
+      task.id === id ? {...task, reminder:
+      !task.reminder} : task
+      )
+    ) 
   }
   return (
     <div className = "container" >
