@@ -38,6 +38,11 @@ function App() {
   const deleteTask =(id) =>{
     setTasks(tasks.filter((task) => task.id !== id ))
   }
+
+  // Toggle Reminder
+  const toggleReminder = () => {
+    
+  }
   return (
     <div className = "container" >
       <Header title = "Task Master  V2.0"/>
