@@ -36,7 +36,7 @@ function App() {
   return (
     <div className = "container" >
       <Header title = "Task Tracker"/>
-      <Tasks/>
+      <Tasks tasks = {tasks}/>
 
     </div>
   );
