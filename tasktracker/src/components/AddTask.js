@@ -3,7 +3,7 @@ import {useState} from 'react'
 const AddTask = () => {
     const [text, setText] = useState('')
     const [day, setDay] = useState('')
-    const [reminder, setReminder] = useState('')
+    const [reminder, setReminder] = useState(false)
     return (
         <form className = 'add-form'>
             <div className = "form-control">
