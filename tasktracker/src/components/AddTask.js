@@ -2,9 +2,12 @@ import React from 'react'
 
 const AddTask = () => {
     return (
-        <div>
+        <form className = 'add-form'>
+            <div className = "form-control">
+                <label></label>
+            </div>
             
-        </div>
+        </form>
     )
 }
 
