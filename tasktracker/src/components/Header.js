@@ -6,7 +6,7 @@ const Header = (props) => {
             <h1>
                 {props.title}
             </h1>
-            <Button color = 'green' text = 'Add'/>
+            <Button color = 'steelblue' text = 'Add'/>
         </header>
     )
 }
