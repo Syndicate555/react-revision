@@ -33,6 +33,9 @@ const Tasks = () => {
     ])
     return (
         <>
+        {tasks.map((tasks) => (
+            <h3 key = {task.id}>{task.text}</h3>
+        ))}
             
         </>
     )
