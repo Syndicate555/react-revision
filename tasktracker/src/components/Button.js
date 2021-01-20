@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = () => {
+const Button = (props) => {
     return (
-        <button className="btn">Add</button>
+        <button style = {{backgroundColor:props.color}} className="btn">{props.text}</button>
 
     )
 }
