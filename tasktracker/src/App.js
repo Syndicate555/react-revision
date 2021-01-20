@@ -41,7 +41,7 @@ function App() {
 
   // Toggle Reminder
   const toggleReminder = (id) => {
-    console.log('id')
+    console.log(id)
 
   }
   return (
