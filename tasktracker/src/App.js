@@ -41,13 +41,14 @@ function App() {
 
   // Toggle Reminder
   const toggleReminder = (id) => {
+    console.log('id')
 
   }
   return (
     <div className = "container" >
       <Header title = "Task Master  V2.0"/>
       {tasks.length > 0 ? (
-      <Tasks tasks = {tasks} onDelete = {deleteTask}/>
+      <Tasks tasks = {tasks} onDelete = {deleteTask} onReminder = {toggleReminder}/>
       ): (
         'No Task is assigned'
       )}
